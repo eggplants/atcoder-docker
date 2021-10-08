@@ -156,7 +156,7 @@ apt-get --purge remove sbcl -y
 - (0.33.0)
 
 ```bash
-wget -O- https://dist.crystal-lang.org/apt/setup.sh | bash
+curl sSL https://dist.crystal-lang.org/apt/setup.sh | bash
 apt-get install crystal -y
 ```
 
